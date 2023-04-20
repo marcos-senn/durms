@@ -1,0 +1,50 @@
+*{
+    margin: 100px 100px;
+}
+
+body{
+    background: #000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h1{
+    color: #fff;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn{
+    border: 1px solid #fff;
+    color:slateblue;
+    background-color: burlywood;
+    width: 300px;
+    margin: 2px;
+}
+
+@media (max-width: 991px){
+
+    .h1{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        color: #fff;
+        font-size: 1rem;
+    
+        
+    }
+
+    .btn{
+        width: 250px;
+        margin: 0;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
